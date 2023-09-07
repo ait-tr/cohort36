@@ -1,0 +1,13 @@
+{
+  "topic": "Intro to Java",
+  "date": "2023-09-07",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Main.java",
+    "code/Main2.java",
+    "code/Main3.java"
+  ],
+  "video": ""
+}
