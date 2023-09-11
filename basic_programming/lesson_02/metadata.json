@@ -5,9 +5,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/Main.java",
-    "code/Main2.java",
-    "code/Main3.java"
+    "code/variables/src/Main.java",
+    "code/variables/src/Main2.java",
+    "code/variables/src/Main3.java"
   ],
   "video": ""
 }
