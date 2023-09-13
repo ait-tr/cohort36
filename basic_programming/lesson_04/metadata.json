@@ -5,6 +5,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/conditions/src/Main01StrPlusInt.java",
+    "code/conditions/src/Main02NextToken.java",
+    "code/conditions/src/Main03TokensOnly.java",
+    "code/conditions/src/Main04If.java",
+    "code/conditions/src/Main05IfElse.java",
+    "code/conditions/src/Main06IfElse.java",
+    "code/conditions/src/Main07IfElseIf.java",
+    "code/conditions/src/Main08Ternary.java",
+    "code/conditions/src/Main09Numbers.java",
+    "code/conditions/src/Main10NumbersTernary.java"
   ],
   "video": ""
 }
