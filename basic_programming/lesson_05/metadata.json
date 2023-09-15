@@ -5,6 +5,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "code/practice/src/Homework_04_02_01.java",
+    "code/practice/src/Homework_04_02_02.java",
+    "code/practice/src/Task1Suffixes.java",
+    "code/practice/src/Task2Arithmetics.java",
+    "code/practice/src/Task3Triangle.java",
+    "code/practice/src/Task5Watches.java",
+    "code/practice/src/Task6Watches.java"
   ],
   "video": ""
 }
