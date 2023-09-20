@@ -1,0 +1,13 @@
+{
+  "topic": "Practice",
+  "date": "2023-09-15",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Human.java",
+    "code/Main02.java",
+    "code/Main03.java"
+  ],
+  "video": ""
+}
