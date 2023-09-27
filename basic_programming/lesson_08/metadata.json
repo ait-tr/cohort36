@@ -1,0 +1,14 @@
+{
+  "topic": "Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Main01.java",
+    "code/Main02.java",
+    "code/Main03.java",
+    "code/Main04.java",
+    "code/Main06.java"
+  ],
+  "video": ""
+}
