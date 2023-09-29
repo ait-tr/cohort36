@@ -67,6 +67,8 @@ while (i < 5) { // пока i меньше, чем 5
 
 ## 03. Массивы
 
+![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_09/img/1.png)
+
 * Это набор однотипных переменных
 * Нумерация элементов массива во всех С-подобных языках (C/C++/C#/Java/Golang/JavaScript) начинается с `0`
 * Все элементы имеют определенный `индекс` (порядковый номер)
