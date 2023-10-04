@@ -4,13 +4,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "classwork/last_homework/Main02.java",
-    "classwork/last_homework/Main05.java",
-    "classwork/last_homework/Main01.java",
-    "classwork/last_homework/Main03.java",
-    "classwork/last_homework/Main04.java",
-    "classwork/Main01.java",
-    "classwork/Main02.java"
+    "src/classwork/last_homework/Main02.java",
+    "src/classwork/last_homework/Main05.java",
+    "src/classwork/last_homework/Main01.java",
+    "src/classwork/last_homework/Main03.java",
+    "src/classwork/last_homework/Main04.java",
+    "src/classwork/Main01.java",
+    "src/classwork/Main02.java"
   ],
   "video": ""
 }
