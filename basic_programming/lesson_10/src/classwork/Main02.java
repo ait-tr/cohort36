@@ -1,21 +1,36 @@
 package classwork;
 
+import java.util.Scanner;
+
 public class Main02 {
     public static void main(String[] args) {
-        int number = 15;
-        // создаем массив
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
-        // создаем еще один массив, но инициализируем другим массивом
-        // теперь в нашей программе две переменные ссылаются на одну область памяти
-        int[] arr1 = arr;
-        // изменим несколько значений во втором массиве
-        arr1[0] = 100;
-        arr1[2] = 300;
-        // выведем первый массив в консоль
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число от 1 до 9");
+
+        int input = scanner.nextInt();
+
+        if ((input > 9) || (input < 1)) {
+            System.out.println("Значение вне диапазона");
+            return;
         }
-        // в результате увидим, что первый массив тоже изменился, как и первый
-        // произошло так потому что оба массива ссылались на одну область в памяти
+        //Строит верхнюю часть пирамиды
+        for (int i = 1; i <= input; i++) {
+            int j = 1;
+            while (j <= i) {
+                System.out.print(j);
+                j++;
+            }
+            System.out.println();
+        }
+        // Строит нижнюю часть пирамиды
+        for (int i = input - 1; i >= 1; i--) {
+            int j = 1;
+            while (j <= i) {
+                System.out.print(j);
+                j++;
+            }
+            System.out.println();
+        }
     }
 }
+
