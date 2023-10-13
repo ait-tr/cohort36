@@ -1,0 +1,12 @@
+{
+  "topic": "Scopes and procedures",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main02_11.java",
+    "src/classwork/last_homework/Main03_11.java",
+    "src/classwork/last_homework/Main04_11.java"
+  ],
+  "video": ""
+}
