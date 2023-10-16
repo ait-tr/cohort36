@@ -1,0 +1,12 @@
+{
+  "topic": "Methods. Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main01_12.java",
+    "src/classwork/last_homework/Main02_12.java",
+    "src/classwork/last_homework/Main03_14.java"
+  ],
+  "video": ""
+}
