@@ -1,0 +1,12 @@
+{
+  "topic": "Codestyle. Algorithms that change array length",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main03.java",
+    "src/classwork/Main02.java",
+    "src/classwork/Main01.java"
+  ],
+  "video": ""
+}
