@@ -1,0 +1,12 @@
+{
+  "topic": "switch, arrays, methods. Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main01_15.java",
+    "src/classwork/last_homework/Main02_17.java",
+    "src/classwork/last_homework/Main02_18.java"
+  ],
+  "video": ""
+}
