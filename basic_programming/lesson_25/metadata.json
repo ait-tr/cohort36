@@ -1,0 +1,13 @@
+{
+  "topic": "Git. Branches and merges",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Book.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example02/Employee.java",
+    "src/classwork/example02/Main.java"
+  ],
+  "video": ""
+}
