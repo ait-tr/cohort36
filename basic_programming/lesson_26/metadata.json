@@ -1,0 +1,13 @@
+{
+  "topic": "Constructors, static context and constants",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main01.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example01/Plane.java",
+    "src/classwork/example01/Main.java"
+  ],
+  "video": ""
+}
