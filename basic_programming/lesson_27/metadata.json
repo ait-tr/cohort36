@@ -1,0 +1,15 @@
+{
+  "topic": "Encapsulation",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/work/Employee.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/last_homework/task01_25/Human.java",
+    "src/classwork/last_homework/task01_25/Main.java",
+    "src/classwork/last_homework/task02_25/Main.java",
+    "src/classwork/last_homework/task02_25/Pen.java"
+  ],
+  "video": ""
+}
