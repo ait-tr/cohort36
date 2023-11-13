@@ -1,0 +1,11 @@
+{
+  "topic": "Introduction to OOP",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main.java",
+    "src/classwork/MyArray.java"
+  ],
+  "video": ""
+}
