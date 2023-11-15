@@ -1,0 +1,19 @@
+{
+  "topic": "Enumeration",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/homework28/MyArray.java",
+    "src/classwork/last_homework/homework27_2/Main.java",
+    "src/classwork/last_homework/homework27_2/BankAccount.java",
+    "src/classwork/last_homework/homework27_1/Main.java",
+    "src/classwork/last_homework/homework27_1/Human.java",
+    "src/classwork/last_homework/homework26/Processor.java",
+    "src/classwork/last_homework/homework26/Main.java",
+    "src/classwork/example01/Position.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Direction.java"
+  ],
+  "video": ""
+}
