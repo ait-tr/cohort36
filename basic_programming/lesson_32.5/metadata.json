@@ -1,0 +1,12 @@
+{
+  "topic": " Practice makes perfect pt 3.5",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main01.java",
+    "src/classwork/Main02.java",
+    "src/classwork/Main03.java"
+  ],
+  "video": ""
+}
