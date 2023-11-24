@@ -1,0 +1,16 @@
+{
+  "topic": "Practice makes perfect pt4",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main01.java",
+    "src/classwork/last_homework/Main04.java",
+    "src/classwork/last_homework/Main03.java",
+    "src/classwork/Main02.java",
+    "src/classwork/Main04.java",
+    "src/classwork/Main03.java",
+    "src/classwork/Main05.java"
+  ],
+  "video": ""
+}
