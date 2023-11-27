@@ -1,0 +1,19 @@
+{
+  "topic": "Practice makes perfect pt5",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main01_31.java",
+    "src/classwork/last_homework/Main01_33.java",
+    "src/classwork/last_homework/Main02_32.java",
+    "src/classwork/last_homework/Main02_31.java",
+    "src/classwork/last_homework/Main02_30.java",
+    "src/classwork/last_homework/Main02_33.java",
+    "src/classwork/last_homework/Main03_33.java",
+    "src/classwork/task02/Main.java",
+    "src/classwork/task02/TravelMethods.java",
+    "src/classwork/Main01.java"
+  ],
+  "video": ""
+}
