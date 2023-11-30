@@ -4,6 +4,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Town.java",
     "src/classwork/example02/Main.java",
     "src/classwork/example02/Planet.java",
     "src/classwork/example03/Main.java",
