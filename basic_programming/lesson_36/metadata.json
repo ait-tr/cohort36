@@ -1,0 +1,16 @@
+{
+  "topic": "Practice makes perfect pt7",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example02/Ruler.java",
+    "src/classwork/example03/EnergyClassProvider.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example03/House.java",
+    "src/classwork/example03/Main.java",
+    "src/classwork/Main01.java",
+    "src/classwork/Main04.java"
+  ],
+  "video": ""
+}
