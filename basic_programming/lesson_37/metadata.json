@@ -1,0 +1,17 @@
+{
+  "topic": "Different class objects interraction",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Car.java",
+    "src/classwork/example01/Engine.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example02/Address.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/Person.java",
+    "src/classwork/last_homework/task_02_34/Main.java",
+    "src/classwork/last_homework/task_02_34/SolarPlanets.java"
+  ],
+  "video": ""
+}
