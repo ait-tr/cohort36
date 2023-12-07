@@ -1,0 +1,19 @@
+{
+  "topic": "Practice 2",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example03/Meal.java",
+    "src/classwork/example03/Main.java",
+    "src/classwork/example03/Ingredient.java",
+    "src/classwork/example02/Student.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/Homework.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Minute.java",
+    "src/classwork/example01/Hour.java",
+    "src/classwork/example01/DayTime.java"
+  ],
+  "video": ""
+}
