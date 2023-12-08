@@ -1,0 +1,14 @@
+{
+  "topic": "Inheritance pt2",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Cat.java",
+    "src/classwork/example01/Dog.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Main01.java",
+    "src/classwork/example01/Pet.java"
+  ],
+  "video": ""
+}
