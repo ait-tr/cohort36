@@ -1,9 +1,10 @@
 package classwork.example01;
 
-public class Main01 {
+import java.util.Scanner;
+
+public class  Main01 {
     /*
-    Описать массив из 8 мопсов и 2 котов
-    проверить, как там каждый питомец
+     Разработать метод, который вернет первого питомца из массива с именем начинающимся на переданную букву
      */
 
     public static void checkOnPet(Pet pet) {
@@ -16,25 +17,37 @@ public class Main01 {
         pet.makeSound();
     }
 
+    public static Pet getPet(Pet[] pets, char firstLetter) {
+        for (int i = 0; i < pets.length; i++) {
+            if (firstLetter == pets[i].getName().charAt(0)) {
+                return pets[i];
+            }
+        }
+        return null;
+    }
+
     public static void main(String[] args) {
-        // 8 мопсов + 2 кота = 10 питомцев
         Pet[] pets = new Pet[10];
-        // имена всех питомцев
         String[] names = {"Dimon", "Katie", "Alice", "Lena", "Nastya", "Olya", "Jane", "Inga", "Murzik", "Barsik"};
         for (int i = 0; i < pets.length; i++) {
-            // в элементы меньше 8 записываем собак, в остальные котов
             if (i < 8) {
                 pets[i] = new Dog(names[i], 0, 4, "Pale", "Pug");
             } else {
                 pets[i] = new Cat(names[i], 1, 7, "Multicolor", "No breed");
             }
         }
-        // димон - мальчик. Меняем ему пол на мужской
         pets[0].setSex(1);
-
         for (int i = 0; i < pets.length; i++) {
-            // проверяем каждого питомца в массиве
             checkOnPet(pets[i]);
+        }
+
+        Scanner scanner = new Scanner(System.in);
+        char firstLetter = scanner.next().charAt(0);
+        Pet pet = getPet(pets, firstLetter);
+        if (pet == null) {
+            System.out.println("Pet not found!");
+        } else {
+            System.out.println("Pet found: " + pet);
         }
     }
 }

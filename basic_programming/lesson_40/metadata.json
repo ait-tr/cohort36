@@ -1,0 +1,20 @@
+{
+  "topic": "null reference. equals and hashCode",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Cat.java",
+    "src/classwork/example01/Dog.java",
+    "src/classwork/example01/Main01.java",
+    "src/classwork/example01/Pet.java",
+    "src/classwork/example02/Cat.java",
+    "src/classwork/example02/Dog.java",
+    "src/classwork/example02/Main01.java",
+    "src/classwork/example02/Pet.java",
+    "src/classwork/last_homework/homework37/Main.java",
+    "src/classwork/last_homework/homework37/Remote.java",
+    "src/classwork/last_homework/homework37/Tv.java"
+  ],
+  "video": ""
+}
