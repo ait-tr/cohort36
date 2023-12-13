@@ -1,0 +1,20 @@
+{
+  "topic": "Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/homework38/Customer.java",
+    "src/classwork/last_homework/homework38/Main.java",
+    "src/classwork/last_homework/homework38/Person.java",
+    "src/classwork/last_homework/homework38/Product.java",
+    "src/classwork/last_homework/homework38/Seller.java",
+    "src/classwork/last_homework/homework39/task01/Main.java",
+    "src/classwork/last_homework/homework39/task01/Metal.java",
+    "src/classwork/last_homework/homework39/task02/Employee.java",
+    "src/classwork/last_homework/homework39/task02/Developer.java",
+    "src/classwork/last_homework/homework39/task02/Main.java",
+    "src/classwork/last_homework/homework39/task02/Manager.java"
+  ],
+  "video": ""
+}
