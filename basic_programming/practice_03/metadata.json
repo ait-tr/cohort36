@@ -1,0 +1,14 @@
+{
+  "topic": "Practice 03",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main.java",
+    "src/classwork/Human.java",
+    "src/classwork/example01/Metal.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/AdvancedMain.java"
+  ],
+  "video": ""
+}
