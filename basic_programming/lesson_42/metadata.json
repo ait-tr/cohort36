@@ -1,0 +1,26 @@
+{
+  "topic": "Polymorphism. Abstract classes",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Animal.java",
+    "src/classwork/example01/Cat.java",
+    "src/classwork/example04/Bluetoothable.java",
+    "src/classwork/example03/Triangle.java",
+    "src/classwork/example03/Shape.java",
+    "src/classwork/example03/Rectangle.java",
+    "src/classwork/example04/Laptop.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/Pet.java",
+    "src/classwork/example03/Main.java",
+    "src/classwork/example02/Cat.java",
+    "src/classwork/example02/Dog.java",
+    "src/classwork/example01/Dog.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example03/Circle.java",
+    "src/classwork/example04/Main.java",
+    "src/classwork/example04/SmartPhone.java"
+  ],
+  "video": ""
+}
