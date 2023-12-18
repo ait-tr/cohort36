@@ -1,0 +1,23 @@
+{
+  "topic": "Interfaces. Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example02/TelegramNotifier.java",
+    "src/classwork/example02/SMSNotifier.java",
+    "src/classwork/example02/NotificationManager.java",
+    "src/classwork/example02/Notifier.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/EmailNotifier.java",
+    "src/classwork/example01/Triangle.java",
+    "src/classwork/example01/Shape.java",
+    "src/classwork/example01/Translatable.java",
+    "src/classwork/example01/Rectangle.java",
+    "src/classwork/example01/Point.java",
+    "src/classwork/example01/MathHelper.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Circle.java"
+  ],
+  "video": ""
+}
