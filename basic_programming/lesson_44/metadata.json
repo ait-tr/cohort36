@@ -1,0 +1,22 @@
+{
+  "topic": "Anonymous classes",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/NotificationManager.java",
+    "src/classwork/example01/Notifier.java",
+    "src/classwork/example02/Cat.java",
+    "src/classwork/example02/Feedable.java",
+    "src/classwork/example02/Fish.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/Pet.java",
+    "src/classwork/example02/Petable.java",
+    "src/classwork/example02/Walkable.java",
+    "src/classwork/example02/Washable.java",
+    "src/classwork/last_homework/task1/Main.java",
+    "src/classwork/last_homework/task1/Mouse.java"
+  ],
+  "video": ""
+}
