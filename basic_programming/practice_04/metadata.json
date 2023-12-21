@@ -1,0 +1,19 @@
+{
+  "topic": "Practice 04",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example03/Car.java",
+    "src/classwork/example03/Main.java",
+    "src/classwork/example03/Bicycle.java",
+    "src/classwork/example03/Truck.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example02/Greeter.java",
+    "src/classwork/example03/Vehicle.java",
+    "src/classwork/example01/StudentInfo.java",
+    "src/classwork/example01/Signer.java",
+    "src/classwork/example01/Main.java"
+  ],
+  "video": ""
+}
