@@ -1,0 +1,17 @@
+{
+  "topic": "Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Archer.java",
+    "src/classwork/last_homework/Attackable.java",
+    "src/classwork/last_homework/Mage.java",
+    "src/classwork/last_homework/Entity.java",
+    "src/classwork/last_homework/Main.java",
+    "src/classwork/last_homework/Monster.java",
+    "src/classwork/last_homework/Player.java",
+    "src/classwork/last_homework/Warrior.java"
+  ],
+  "video": ""
+}
