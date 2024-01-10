@@ -1,0 +1,18 @@
+{
+  "topic": "Wrapper classes. Generics",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main01.java",
+    "src/classwork/Main02.java",
+    "src/classwork/task04/Main.java",
+    "src/classwork/task04/MyArray.java",
+    "src/classwork/task03/Smartphone.java",
+    "src/classwork/task03/Main.java",
+    "src/classwork/task03/Cat.java",
+    "src/classwork/task03/Key.java",
+    "src/classwork/task03/Box.java"
+  ],
+  "video": ""
+}
