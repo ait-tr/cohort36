@@ -1,0 +1,15 @@
+{
+  "topic": "Practice 05",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/task01_44/Circle.java",
+    "src/classwork/task01_44/Main.java",
+    "src/classwork/task01_44/Rectangle.java",
+    "src/classwork/task01_44/Polygon.java",
+    "src/classwork/task01_44/Shape.java",
+    "src/classwork/MainMultithreading.java"
+  ],
+  "video": ""
+}
