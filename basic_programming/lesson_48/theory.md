@@ -56,11 +56,11 @@ String s будет новым объектом на каждой итераци
 * Список - это такая коллекция элементов, которая хранит эти элементы не подряд (как массив), а в связанных узлы.
 * Списки бывают односвязными и двухсвязными, а еще цикличными и нецикличными.
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_11/img/1.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_48/img/1.png)
 
 Все варианты связных списков
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_11/img/2.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_48/img/2.png)
 
 Упрощенная схема двухсвязного цикличного списка
 
@@ -68,11 +68,11 @@ String s будет новым объектом на каждой итераци
 * В двусвязных списках, каждый узел указывает на предыдущий и следующий узел.
 * Цикличный список отличается от нецикличного тем, что последний элемент также указывает на первый.
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_11/img/3.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_48/img/3.png)
 
 Как в памяти хранится массив
 
-![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_11/img/4.png)
+![image](https://raw.githubusercontent.com/ait-tr/cohort36/main/basic_programming/lesson_48/img/4.png)
 
 Как в памяти (может) храниться связный список
 
