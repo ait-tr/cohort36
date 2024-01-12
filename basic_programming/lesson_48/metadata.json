@@ -1,0 +1,12 @@
+{
+  "topic": "Iterators. Foreach loop. Linked list",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/task02/MyLinkedList.java",
+    "src/classwork/task01/MyArray.java",
+    "src/classwork/task01/Main.java"
+  ],
+  "video": ""
+}
