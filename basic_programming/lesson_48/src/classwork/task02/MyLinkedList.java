@@ -1,6 +1,8 @@
 package classwork.task02;
 
-public class MyLinkedList<E> {
+import java.util.Iterator;
+
+public class MyLinkedList<E> implements Iterable<E> {
     private Node<E> first;
     private int size;
 
@@ -85,8 +87,57 @@ public class MyLinkedList<E> {
         return node.getValue();
     }
 
+    public E remove(int index) {
+        if (index >= size || isEmpty()) {
+            return null;
+        }
+        Node<E> node = first;
+        for (int i = 0; i < index - 1; i++) {
+            node = node.getNext();
+        }
+        E oldValue = node.getNext().getValue();
+        node.setNext(node.getNext().getNext());
+        size--;
+        return oldValue;
+    }
 
+    public int indexOf(E value) {
+        Node<E> node = first;
+        int index = 0;
+        while (node.hasNext()) {
+            if (node.getValue().equals(value)) {
+                return index;
+            }
+            node = node.getNext();
+            index++;
+        }
+        return -1;
+    }
 
+    @Override
+    public Iterator<E> iterator() {
+        return new MyIterator<>(first);
+    }
+
+    private static class MyIterator<E> implements Iterator<E> {
+        private Node<E> current;
+
+        public MyIterator(Node<E> first) {
+            current = first;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public E next() {
+            E oldValue = current.getValue();
+            current = current.getNext();
+            return oldValue;
+        }
+    }
 
     private static class Node<E> {
         private E value;

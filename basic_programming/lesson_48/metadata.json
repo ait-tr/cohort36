@@ -6,7 +6,9 @@
   "code": [
     "src/classwork/task02/MyLinkedList.java",
     "src/classwork/task01/MyArray.java",
-    "src/classwork/task01/Main.java"
+    "src/classwork/task01/Main.java",
+    "src/classwork/task02/Main.java"
+
   ],
   "video": ""
 }
