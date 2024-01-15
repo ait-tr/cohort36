@@ -1,0 +1,11 @@
+{
+  "topic": "Linked list implementation. Exceptions",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/task02/Main.java",
+    "src/classwork/task01/Main.java"
+  ],
+  "video": ""
+}
