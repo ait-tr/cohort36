@@ -5,7 +5,8 @@
   "homework": "homework.md",
   "code": [
     "src/classwork/task02/Main.java",
-    "src/classwork/task01/Main.java"
+    "src/classwork/task01/Main.java",
+    "src/homework/MyArray.java"
   ],
   "video": ""
 }
