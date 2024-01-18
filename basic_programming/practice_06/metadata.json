@@ -1,0 +1,16 @@
+{
+  "topic": "Practice 06",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/package1/Main.java",
+    "src/classwork/example01/package2/ConsoleReader.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/homework47/Main.java",
+    "src/classwork/homework47/Pair.java",
+    "src/classwork/homework49/Main.java",
+    "src/classwork/homework49/MyArray.java"
+  ],
+  "video": ""
+}
