@@ -1,0 +1,15 @@
+{
+  "topic": "Strings practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example01/Main.java",
+    "src/classwork/example02/Main.java",
+    "src/classwork/example03/Main.java",
+    "src/classwork/example04/Main.java",
+    "src/classwork/example05/Main.java",
+    "src/classwork/example06/Main.java"
+  ],
+  "video": ""
+}
