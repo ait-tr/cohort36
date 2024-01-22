@@ -1,0 +1,12 @@
+{
+  "topic": "Unit testing",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example02/test/ArithmeticTest.java",
+    "src/classwork/example02/ArithmeticHelper.java",
+    "src/classwork/example01/HelloJUnit.java"
+  ],
+  "video": ""
+}
