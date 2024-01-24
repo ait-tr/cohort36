@@ -1,0 +1,13 @@
+{
+  "topic": "Patterns. Practice",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main.java",
+    "src/classwork/example01/Main.java",
+    "src/classwork/example01/Jobs.java",
+    "src/classwork/example01/Employee.java"
+  ],
+  "video": ""
+}
