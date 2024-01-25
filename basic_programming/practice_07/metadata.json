@@ -1,0 +1,13 @@
+{
+  "topic": "Practice 07",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/test/ExampleTest.java",
+    "src/classwork/Main01.java",
+    "src/classwork/example02/RudeRequestException.java",
+    "src/classwork/example02/Main.java"
+  ],
+  "video": ""
+}
