@@ -1,0 +1,14 @@
+{
+  "topic": "Map and Set. Lambda expression",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/Main04.java",
+    "src/classwork/Main05.java",
+    "src/classwork/Main03.java",
+    "src/classwork/Main02.java",
+    "src/classwork/Main01.java"
+  ],
+  "video": ""
+}
