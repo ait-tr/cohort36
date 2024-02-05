@@ -1,0 +1,12 @@
+{
+  "topic": "Files and IO. Project ",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/example02/Main.java",
+    "src/classwork/example01/Main.java",
+    "text.txt"
+  ],
+  "video": ""
+}
