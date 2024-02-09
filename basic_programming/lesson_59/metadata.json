@@ -1,0 +1,13 @@
+{
+  "topic": "Project",
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "src/classwork/last_homework/Main03.java",
+    "src/classwork/last_homework/Main04.java",
+    "src/classwork/last_homework/Main02.java",
+    "src/classwork/last_homework/Main01.java"
+  ],
+  "video": ""
+}
