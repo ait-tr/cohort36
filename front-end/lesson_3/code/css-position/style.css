@@ -1,0 +1,69 @@
+body{
+    background-image: url("https://play-lh.googleusercontent.com/h6low-4D4xs-BhHVjoLXiGXBZQEmgSwcf2YGDan0fU_0GbJAkBubSDBktmRXEMMJXQ");
+    /* background-size: cover; */
+    background-repeat:no-repeat;
+    /* background-position: left 100px bottom 100px; */
+
+}
+
+
+.black-box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  /* z-index: 100; */
+}
+.green-box {
+  position: relative;
+  left: 20px;
+  bottom: 60px;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  color: white;
+  margin: 20px;
+  /* z-index: 2; */
+}
+.orange-box{
+    position: relative;
+    top: -30px;
+    right: -50px;
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    color: white;
+    margin: 20px;
+}
+
+.parent{
+    height: 400px;
+    width: 400px;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color:lightblue;
+    position: absolute;
+     top: 20px;
+     left: 20px;
+}
+
+.purple-disk{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+    bottom: 142px;
+    right: 152px;
+    text-align: center;
+    line-height: 100px;
+
+}
+
