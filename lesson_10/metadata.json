@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "/code/homework_solution/index.js",
+    "/code/js-object/index.js",
+    "/code/js-object/prototype.js",
+    "/code/js-object/inheritance.js"
+  ],
+  "video": "",
+  "etc": ""
+}
