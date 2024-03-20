@@ -1,0 +1,33 @@
+.container {
+  background-color: lightcyan;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction - направление основной
+    row - основная ось горизонтально
+    column -  вертикально */
+  flex-direction: row;
+  flex-flow: row wrap;
+}
+.red-box {
+  width: 300px;
+  height: 300px;
+  background-color: lightcoral;
+  margin: 20px;
+  border-radius: 10px;
+}
+/* Пример 2 */
+.container2 {
+  background-color: lemonchiffon;
+  display: flex;
+  justify-content: space-around;
+}
+.container div:nth-child(1) {
+  order: -5;
+}
+.green-box {
+  background-color: lightgreen;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 20px;
+}
