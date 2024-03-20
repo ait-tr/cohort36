@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./main.html">
+        <div>
+            <h1>Письмо Санте</h1>
+        </div>
+        <div>
+            <h4>Дорогой друг расскажи <br> Санте о том что ты хочешь на Рождество</h4>
+        </div>
+        <div>
+            <input required type="login" name="login" placeholder="Логин">
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Пароль">
+        </div>
+        <div>
+            <input type="name" name="name" placeholder="Имя">
+        </div>
+        <div>Пол:</div>
+        <div class="flex">
+            <input id="gender_male" type="radio" name="gender">
+            <label for="gender_male">Мальчик</label>
+            <input id="gender_female" type="radio" name="gender">
+            <label for="gender_female">Девочка</label>
+        </div>
+        <div>
+            <label for="birthDate">Дни Рождения</label>
+            <input type="date" id="birthDate" name="birthDate">
+        </div>
+        <div>
+            <select name="City" >
+                <option value="Erevan">Ереван</option>
+                <option selected value="Amsterdam">Амстердам</option>
+                <option value="Zugdidi">Зугдиди</option>
+            </select>
+        </div>
+        <div>Ты был хорошим ребенком?</div>
+        <div>
+            <input type="radio" name="answer" id="YES" >
+            <label for="YES">Да</label>
+        </div>
+        <div>
+            <input type="radio" name="answer" id="No" >
+            <label for="No">Нет</label>
+        </div>
+        <button type="submit" >Отправить письмо Санте</button>
+        <!-- onclick="document.location='./main.html'"  переход на другую страницу --> 
+        <button type="reset">Очистить</button>
+        
+    </form>
+</body>
+</html>
