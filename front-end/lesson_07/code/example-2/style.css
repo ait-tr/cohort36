@@ -1,0 +1,9 @@
+.red-box{
+    background-color: red;
+    border-radius: 10px;
+}
+
+.middle{
+    width: 300px;
+    height: 300px;
+}
