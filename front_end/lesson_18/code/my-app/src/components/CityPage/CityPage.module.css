@@ -1,0 +1,15 @@
+* {
+  background-color: bisque;
+}
+.cityClass {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 50%;
+  border-radius: 15px;
+}
+h1 {
+  font-size: 30px;
+  
+}

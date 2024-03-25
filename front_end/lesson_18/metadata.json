@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "/code/homework.ts",
+    "/code/int_type.ts",
+    "/code/my-app/src/App.tsx",
+    "/code/my-app/src/components/CityPage/CityPage.tsx",
+    "/code/my-app/src/components/CityPage/CityPage.module.css",
+    "/code/my-app/src/App.tsx",
+    "/code/my-app/src/App.css"
+  ],
+  "video": "",
+  "etc": ""
+}
