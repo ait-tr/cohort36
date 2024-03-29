@@ -1,0 +1,9 @@
+.cityClass{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.h1_city{
+  border-radius: 15px;
+  border: 2px solid yellowgreen;
+}
