@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "/code/my-app/src/components/Cocktail/Cocktail.module.css",
+    "/code/my-app/src/components/Cocktail/Cocktail.tsx",
+    "/code/my-app/src/components/Playground/Playground.tsx",
+    "/code/my-app/src/components/Car/Car.tsx",
+    "/code/my-app/src/components/CarShop/CarShop.tsx"
+
+    
+  ]
+}
