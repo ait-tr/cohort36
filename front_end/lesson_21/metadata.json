@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/my-app/src/components/Activity/Activity.tsx",
+    "code/my-app/src/components/Activity/Activity.module.tsx",
+    "code/my-app/src/components/Flower/Flower.tsx",
+    "code/my-app/src/components/FlowerShop/FlowerShop.tsx"
+  
+  ],
+  "video": "",
+  "etc": ""
+}
