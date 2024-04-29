@@ -1,0 +1,19 @@
+.list {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dishCard {
+    color: black;
+    margin: 30px;
+    background-color: white;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    width: 80%;
+  }
