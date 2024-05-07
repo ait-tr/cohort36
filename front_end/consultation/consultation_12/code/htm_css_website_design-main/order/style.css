@@ -1,0 +1,29 @@
+#main{
+    width: 600px;
+    height: 300px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+}
+
+#main div{
+    width: 140px;
+    height: 140px;
+    color: rgb(185, 122, 5);
+    font-weight: 900;
+}
+
+        #myRedDiv{background-color:red ;}
+        #myBlueDiv{background-color: blue;}
+        #myGreenDiv{background-color: green;}
+        #myPinkDiv{background-color: pink;}
+        #myBlackDiv{background-color:black ;}
+        #myYellowDiv{background-color: yellow;}
+
+
+        /* display: -webkit-flex; Safari */
+
+        /* Safari 6.1+ */
+/* div#myRedDIV {-webkit-order: 2;}
+div#myBlueDIV  {-webkit-order: 4;}
+div#myGreenDIV {-webkit-order: 3;}
+div#myPinkDIV  {-webkit-order: 1;} */
