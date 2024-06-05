@@ -3,12 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "/code/lesson/index.html",
-    "/code/lesson/script.js",
-    "/code/lesson/style.css",
-    "/code/group1/index.html",
-    "/code/group1/script.js",
-    "/code/group1/style.css"
+    "code/lesson/index.html",
+    "code/lesson/script.js",
+    "code/lesson/style.css",
+    "code/group1/index.html",
+    "code/group1/script.js",
+    "code/group1/style.css"
   ],
   "video": "",
   "etc": ""
