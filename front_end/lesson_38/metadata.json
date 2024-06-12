@@ -4,7 +4,6 @@
   "homework": "homework.md",
   "code": [
     "code/my-react/src/lessons/lesson_04/Lesson04.jsx",
-    "code/my-react/src/lessons/lesson_04/style.css",
     "code/my-react/src/components/button/Button.jsx",
     "code/my-react/src/components/button/button.css",
     "code/my-react/src/components/animalCard/AnimalCard.jsx",
