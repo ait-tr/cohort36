@@ -3,7 +3,7 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/my-react/src/lessons/lesson_05/Lesson05.jsx",
+    "code/lessons/lesson_05/Lesson05.jsx",
     "code/components/countArray/CountArray.jsx",
     "code/components/countArray/countArray.css",
     "code/components/counter/Counter.jsx",
