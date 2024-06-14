@@ -1,0 +1,29 @@
+.animal-card {
+  width: 200px;
+  padding: 20px;
+  border: 0.5px solid black;
+  background-color: #c6ac5d;
+  margin: 5px;
+}
+
+.animal-card>img {
+  width: 100%;
+}
+
+.animal-card>h4 {
+  text-decoration: underline;
+}
+
+.animal-card>img {
+  width: 100%;
+}
+
+.animal-card>p {
+  font-size: 10px;
+}
+
+.disable {
+  background-color: rgba(208, 203, 203, 0.2);
+}
+
+
