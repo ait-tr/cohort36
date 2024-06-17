@@ -1,0 +1,28 @@
+.product-card {
+  width: 200px;
+  padding: 20px;
+  border: 0.5px solid black;
+  background-color: #0f5e86;
+}
+
+.product-card>img {
+  width: 100%;
+}
+
+.product-card>h4 {
+  text-decoration: underline;
+}
+
+.product-card>img {
+  width: 100%;
+}
+
+.product-card>p {
+  font-size: 10px;
+}
+
+.disable {
+  background-color: rgba(208, 203, 203, 0.2);
+}
+
+

@@ -1,0 +1,6 @@
+.section {
+  border: 1px solid black;
+  background-color: rgb(255, 241, 224);
+  margin: 3px;
+  padding: 10px;
+}
