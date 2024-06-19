@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/Lesson06.jsx",
+    "code/BrotherCard.jsx",
+    "code/Lesson07.tsx"
+  ],
+  "video": "",
+  "etc": ""
+}
