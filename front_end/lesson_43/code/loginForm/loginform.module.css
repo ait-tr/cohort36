@@ -1,0 +1,8 @@
+.form {
+  background-color: 'lightblue';
+  padding: '20px';
+  border-radius: '15px';
+  box-shadow: 'inset 4px 4px 8px #c2c2c2, inset -4px -4px 8px #ffffff';
+  width: 300px;
+  margin: 0 auto;
+}

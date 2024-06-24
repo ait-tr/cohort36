@@ -1,0 +1,17 @@
+.inputContainer {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: inset 4px 4px 8px #c2c2c2, inset -4px -4px 8px #ffffff;
+  outline: none;
+  width: 100%;
+}

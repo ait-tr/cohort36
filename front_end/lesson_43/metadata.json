@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/brothercard/brothercard.module.css",
+    "code/brothercard/BrotherCard.tsx",
+    "code/button/button.module.css",
+    "code/button/Button.tsx",
+    "code/buttonStyledComponent/ButtonStyledComponent.tsx",
+    "code/input/input.module.css",
+    "code/input/Input.tsx",
+    "code/lesson_09/lesson09.module.css",
+    "code/lesson_09/Lesson09.tsx",
+    "code/index.tsx",
+    "code/loginForm/LoginForm.tsx",
+    "code/loginForm/loginform.module.css"
+  ],
+  "video": "",
+  "etc": ""
+}
