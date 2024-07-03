@@ -3,8 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/lesson_10/Lesson10.tsx",
-    "code/lesson_10/lesson10.module.css"
+    "code/lesson_12/Lesson12.tsx",
+    "code/lesson_12/lesson12.module.css",
+    "code/knowGender/KnowGender.tsx",
+    "code/knowGender/knowGender.module.css",
+    "code/myForm/MyForm.tsx",
+    "code/myForm/myForm.module.css",
   ],
   "video": "",
   "etc": ""
