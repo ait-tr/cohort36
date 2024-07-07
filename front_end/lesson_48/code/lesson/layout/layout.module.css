@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  background-color: rgb(231, 115, 0);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+
+
+
+.active {
+  text-decoration: underline;
+}
+
+.header>a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  width: 100%;
+  background-color: rgb(194, 194, 194);
+  height: 50px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
