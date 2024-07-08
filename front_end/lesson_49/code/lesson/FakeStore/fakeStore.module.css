@@ -1,0 +1,28 @@
+.container {
+  width: 80%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border: solid 1px brown;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border: 3px dashed rgb(176, 92, 32);
+  border-radius: 8px;
+  padding: 6px;
+  /* align-items: center; */
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+image {
+  background: transparent;
+}
