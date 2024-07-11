@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  height: 220px;
+  border-radius: 10px;
+  background: beige;
+  margin-bottom: 10px;
+}
+
+.container>input {
+  margin-bottom: 3px;
+}
+
+.container>span {
+  font-size: 15px;
+  color: red
+}
+
+/* .container > button {
+  padding: 10px;
+
+} */
