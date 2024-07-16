@@ -11,5 +11,5 @@ fetch('https://fakestoreapi.com/products/6',{
             .then(json=>console.log(json))
 ```
 
-Для отправки запроса и удаления используйте redux. Документация API `https://fakestoreapi.com/docs`
+Для отправки запроса и удаления используйте redux. Запрос делайте через axios - библиотека аналог fetch, как на лекции. Документация API `https://fakestoreapi.com/docs`
 
