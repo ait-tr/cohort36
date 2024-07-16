@@ -1,0 +1,22 @@
+.container-brotherhood {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* .container-brotherhood>div {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+}
+
+.container-brotherhood>div>ol {
+  padding-left: 20px;
+}
+
+.container-brotherhood>div>img {
+  width: 100%;
+} */

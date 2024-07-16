@@ -1,0 +1,37 @@
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #e0e0e0; /* Light background */
+  box-shadow: inset 3px 3px 8px #bebebe, inset -3px -3px 8px #ffffff; /* Inner shadows */
+}
+
+.label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff); /* Gradient background */
+  box-shadow: inset 2px 2px 5px #bebebe, inset -2px -2px 5px #ffffff; /* Inner shadows for pressed-in look */
+  font-size: 14px;
+  color: #333;
+  outline: none;
+}
+
+.input:focus {
+  box-shadow: inset 1px 1px 3px #bebebe, inset -1px -1px 3px #ffffff, 0 0 5px #4d90fe; /* Add glow on focus */
+}
+
+.error {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #e74c3c;
+}

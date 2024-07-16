@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  background-color: rgb(231, 115, 0);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+
+.credentials {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-right: 20px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.header>a:hover {
+  text-decoration: underline;
+}
