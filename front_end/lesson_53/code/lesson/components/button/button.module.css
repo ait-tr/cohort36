@@ -1,0 +1,41 @@
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff); /* Gradient background */
+  box-shadow: 3px 3px 6px #bebebe, -3px -3px 6px #ffffff; /* Outer shadows */
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:active {
+  box-shadow: inset 3px 3px 6px #bebebe, inset -3px -3px 6px #ffffff; /* Inner shadows for pressed-in look */
+}
+
+.button:disabled {
+  background: linear-gradient(145deg, #d3d3d3, #e0e0e0); /* Subtle background change */
+  box-shadow: 3px 3px 6px #a9a9a9, -3px -3px 6px #ffffff; /* Subtle shadow change */
+  color: #999;
+  cursor: not-allowed;
+}
+
+
+.buttonDanger {
+  background-image: linear-gradient(145deg, #ff4d4d, #ff0000);
+  color: white;
+}
+
+.buttonDanger:not(:disabled):hover {
+  background-image: linear-gradient(145deg, #ff0000, #ff4d4d);
+}
+
+.buttonPrimary {
+  background-image: linear-gradient(145deg, #4d79ff, #0033cc);
+  color: white;
+}
+
+.buttonPrimary:not(:disabled):hover {
+  background-image: linear-gradient(145deg, #0033cc, #4d79ff);
+}

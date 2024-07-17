@@ -1,0 +1,11 @@
+.productContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.productContainer > img {
+  margin-bottom: 15px;
+}
