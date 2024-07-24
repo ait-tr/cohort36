@@ -1,0 +1,17 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/multithreading/task_01/Counter.java",
+    "code/multithreading/task_02/Counter.java",
+    "code/multithreading/task_02/MyThread.java",
+    "code/multithreading/task_03/Counter.java",
+    "code/multithreading/task_03/MyThread.java",
+    "code/multithreading/task_04/Counter.java",
+    "code/multithreading/task_04/MyThread1Extends.java",
+    "code/multithreading/task_04/MyThread2Runnable.java"
+
+  ]
+}
