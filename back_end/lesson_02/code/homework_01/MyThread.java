@@ -1,3 +1,5 @@
+package homework_01;
+
 public class MyThread extends Thread {
 
     private final int rangeStart;

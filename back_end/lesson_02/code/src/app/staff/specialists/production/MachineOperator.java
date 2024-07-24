@@ -1,4 +1,4 @@
-package app.staff.specialists.production;
+package src.app.staff.specialists.production;
 
 public class MachineOperator {
 

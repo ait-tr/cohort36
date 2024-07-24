@@ -1,15 +1,16 @@
-package app.code;
+package src.app.code;
 
-import app.staff.administration.Director;
-import app.staff.administration.ProductionChief;
-import app.staff.administration.SalesChief;
-import app.staff.specialists.Secretary;
-import app.staff.specialists.production.MachineOperator;
-import app.staff.specialists.production.Storekeeper;
-import app.staff.specialists.sales.Merchandiser;
-import app.staff.specialists.sales.SalesManager;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
+import src.app.staff.administration.Director;
+import src.app.staff.administration.ProductionChief;
+import src.app.staff.administration.SalesChief;
+import src.app.staff.specialists.Secretary;
+import src.app.staff.specialists.production.MachineOperator;
+import src.app.staff.specialists.production.Storekeeper;
+import src.app.staff.specialists.sales.Merchandiser;
+import src.app.staff.specialists.sales.SalesManager;
+
 
 public class Application {
 

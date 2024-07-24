@@ -1,8 +1,9 @@
-package app.staff.administration;
+package src.app.staff.administration;
 
-import app.staff.specialists.sales.Merchandiser;
-import app.staff.specialists.sales.SalesManager;
 import org.springframework.beans.factory.annotation.Autowired;
+import src.app.staff.specialists.sales.Merchandiser;
+import src.app.staff.specialists.sales.SalesManager;
+
 
 public class SalesChief {
 

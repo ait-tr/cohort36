@@ -1,4 +1,4 @@
-package app.staff.specialists.sales;
+package src.app.staff.specialists.sales;
 
 public class SalesManager {
 

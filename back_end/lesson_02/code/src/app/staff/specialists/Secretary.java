@@ -1,4 +1,4 @@
-package app.staff.specialists;
+package src.app.staff.specialists;
 
 public class Secretary {
 

@@ -1,7 +1,7 @@
-package app.staff.administration;
+package src.app.staff.administration;
 
-import app.staff.specialists.production.MachineOperator;
-import app.staff.specialists.production.Storekeeper;
+import src.app.staff.specialists.production.MachineOperator;
+import src.app.staff.specialists.production.Storekeeper;
 import org.springframework.beans.factory.annotation.Autowired;
 
 public class ProductionChief {
