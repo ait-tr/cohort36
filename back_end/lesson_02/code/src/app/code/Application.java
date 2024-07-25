@@ -41,7 +41,7 @@ public class Application {
 //        director.manageCompany();
 
         // Вариант кода с использованием Spring
-        AbstractApplicationContext context = new AnnotationConfigApplicationContext("app.config");
+        AbstractApplicationContext context = new AnnotationConfigApplicationContext("src.app.config");
         Director director = context.getBean(Director.class);
         director.manageCompany();
     }
