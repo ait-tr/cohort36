@@ -1,0 +1,21 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/homework_01/Counter.java",
+    "code/homework_01/MyThread.java",
+    "code/src/app/code/Application.java",
+    "code/src/app/config/AppConfig.java",
+    "code/src/app/staff/administration/Director.java",
+    "code/src/app/staff/administration/ProductionChief.java",
+    "code/src/app/staff/administration/SalesChief.java",
+    "code/src/app/staff/specialists/production/MachineOperator.java",
+    "code/src/app/staff/specialists/production/Storekeeper.java",
+    "code/src/app/staff/specialists/sales/Merchandiser.java",
+    "code/src/app/staff/specialists/sales/SalesManager.java",
+    "code/src/app/staff/specialists/Secretary.java"
+
+  ]
+}
