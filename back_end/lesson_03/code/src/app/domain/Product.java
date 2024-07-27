@@ -1,4 +1,4 @@
-package app.domain;
+package src.app.domain;
 
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -31,14 +31,13 @@ public class Product {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Product product = (Product) o;
-        return Objects.equals(id, product.id) && Objects.equals(title, product.title) && Objects.equals(price, product.price) && Objects.equals(article, product.article);
+        if (!(o instanceof Product product)) return false;
+        return Objects.equals(id, product.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, title, price, article);
+        return Objects.hashCode(id);
     }
 
     @Override
