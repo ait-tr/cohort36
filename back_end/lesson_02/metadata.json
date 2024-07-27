@@ -4,21 +4,22 @@
   "homework": "homework.md",
   "code": [
 
-    "code/src/app/controller/ProductController.java",
-    "code/src/app/domain/Product.java",
+    "code/src/app/code/Application.java",
+    "code/src/app/config/AppConfig.java",
     "code/src/app/libs/commons-logging-1.2.jar",
     "code/src/app/libs/spring-aop-6.0.11.jar",
     "code/src/app/libs/spring-beans-6.0.11.jar",
     "code/src/app/libs/spring-context-6.0.11.jar",
     "code/src/app/libs/spring-core-6.0.11.jar",
     "code/src/app/libs/spring-expression-6.0.11.jar",
-    "code/src/app/repository/ProductRepository.java",
-    "code/src/app/repository/ProductRepositoryList.java",
-    "code/src/app/repository/ProductRepositoryMap.java",
-    "code/src/app/service/ProductService.java",
-    "code/src/app/service/ProductServiceImpl.java",
-    "code/src/client/Client.java",
-    "code/src/application.properties"
+    "code/src/app/staff/administration/Director.java",
+    "code/src/app/staff/administration/ProductionChief.java",
+    "code/src/app/staff/administration/SalesChief.java",
+    "code/src/app/staff/specialists/production/MachineOperator.java",
+    "code/src/app/staff/specialists/production/Storekeeper.java",
+    "code/src/app/staff/specialists/sales/Merchandiser.java",
+    "code/src/app/staff/specialists/sales/SalesManager.java",
+    "code/src/app/staff/specialists/Secretary.java"
 
   ]
 }
