@@ -1,6 +1,8 @@
 <details>
   <summary style="cursor: pointer;"><b>English</b></summary>
 
+# Lesson 03
+
 ## Principles of Clean Architecture
 
 Clean Architecture is often represented as concentric circles:
@@ -56,7 +58,7 @@ Primer without `@Autowired` for the designer and without the designer default fi
 <details style="padding-top: 18px">
   <summary style="cursor: pointer;"><b>На русском</b></summary>
 
-# Lesson 02
+# Lesson 03
 
 ## Принципы Чистой архитектуры
 
