@@ -3,7 +3,52 @@
 
 # Lesson plan No. 4 07/29/2024
 
+# Lesson plan #4 07/29/2024
 
+## What we learned in the last lesson:
+1. Principles of Clean Architecture and an example of its implementation in practice.
+
+2. Spring annotations:
+- @Component,
+- @Repository,
+- @Service,
+- @Qualifier,
+- @Value.
+
+## Topic of today's lesson:
+
+### Interaction on the Internet, HTTP protocol and its use
+1. HTML forms as a means of entering information.
+2. HTTP protocol.
+3. Client-server interaction. How data gets from an HTML form to the backend.
+4. Installing Tomcat and integrating into the IDE.
+5. Request processing by servlets.
+
+## Practice
+
+1. Installing Tomcat and integrating into the IDE.
+   https://tomcat.apache.org/
+   Choose the latest stable version: Apache Tomcat 10
+   https://tomcat.apache.org/download-10.cgi
+
+2. Create a new project using the Maven builder and its pom.xml configuration file
+   Necessary dependencies:
+   <dependencies>
+   <dependency>
+   <groupId>jakarta.servlet</groupId>
+   <artifactId>jakarta.servlet-api</artifactId>
+   <version>6.0.0</version>
+   <scope>provided</scope>
+   </dependency>
+   <dependency>
+   <groupId>com.fasterxml.jackson.core</groupId>
+   <artifactId>jackson-databind</artifactId>
+   <version>2.16.0</version>
+   </dependency>
+   </dependencies>
+
+2. Processing the http request with servlets:
+- writing a Car application
 
 ___
 
