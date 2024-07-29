@@ -1,6 +1,53 @@
 <details>
   <summary style="cursor: pointer;"><b>English</b></summary>
 
+# Lesson 4
+
+### Servlet - what is it and what is it for?
+
+A Servlet is a Java program that runs on a server and processes client requests using the HTTP protocol.
+Servlets are a component of Java EE (Enterprise Edition) and are designed to extend the capabilities of servers that handle client requests, such as web servers.
+
+A Servlet in Java is a technology used to create web applications.
+It provides a platform for developing server programs in Java that can communicate with clients using the HTTP protocol (or other protocols), handling requests and sending responses.
+
+Servlets perform the following main functions:
+
+1. **Reading client data** sent via HTTP. Data can be sent in a variety of ways, including GET and POST.
+2. **Processing this data**: A Servlet can process the input data and perform various operations, such as accessing a database, calling external services, and other computing tasks.
+3. **Generate responses**: After processing the data, the servlet generates a response in a format that the client can understand (usually HTML, but can also be JSON, XML, and other data).
+4. **Send data back to the client** via HTTP.
+
+Servlets run within a servlet container (also called an **application server**), which handles many of the low-level details, including servlet lifecycle management, scaling, security, session management, and more.
+
+A classic example of an application server that supports servlets is Apache Tomcat, which is one of the most popular servlet containers.
+
+### Java Servlet API
+
+The Java Servlet API is a standardized set of interfaces and classes that makes it possible to develop such web applications.
+Servlets run on the server and can handle client requests in the following ways:
+
+1. **Receive a request**: The client (usually a web browser) sends a request to the server where the servlet is hosted. This request can be triggered by various events, for example, a user can fill out a form on a web page and click the submit button.
+
+2. **Processing the request**: The servlet parses the received request, performs the necessary data processing or business logic, and prepares a response. This may include performing database operations, integrating with other web services, and so on.
+
+3. **Sending the response**: After processing the request, the servlet generates a response, which can be in the form of HTML, JSON, XML, and other formats, and sends it back to the client.
+
+Servlets provide high performance and scalability because they support multi-threaded request processing, making them ideal for modern interactive web applications.
+
+The Dispatcher Servlet in the Spring Framework is a servlet that distributes requests to various controllers. It plays a central role in handling all the HTTP requests that pass through an application built using Spring.
+
+When a Spring web application receives an HTTP request, the Dispatcher Servlet determines which controller to route the request to. It bases its decision on configuration, which can be specified by annotations in code or in XML configuration files.
+
+Once the Dispatcher Servlet determines the appropriate controller, it forwards the request to that controller. The controller then processes the request, interacts with the necessary models (for example, to retrieve or update data), and returns the model and view that should be displayed. The Dispatcher Servlet then forwards this response back to the user, usually as an HTML page.
+
+In this way, the Dispatcher Servlet simplifies routing in Spring applications by providing a centralized place to manage all incoming HTTP requests.
+
+### Useful materials:
+
++ Wikipedia article on HTTP - https://ru.wikipedia.org/wiki/HTTP
+
++ What is URI, URL and URN - https://habr.com/ru/articles/190154/
 
 
 </details>

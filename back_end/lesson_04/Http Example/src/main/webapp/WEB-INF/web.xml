@@ -5,12 +5,12 @@
 <web-app>
 
     <servlet>
-        <servlet-name>userServlet</servlet-name>
-        <servlet-class>app.UserServlet</servlet-class>
+        <servlet-name>carServlet</servlet-name>
+        <servlet-class>app.controller.CarServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>userServlet</servlet-name>
-        <url-pattern>/users</url-pattern>
+        <servlet-name>carServlet</servlet-name>
+        <url-pattern>/cars</url-pattern>
     </servlet-mapping>
 
 </web-app>
