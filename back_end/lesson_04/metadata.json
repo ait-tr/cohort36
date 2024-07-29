@@ -4,21 +4,25 @@
   "homework": "homework.md",
   "code": [
 
-    "code/src/app/controller/ProductController.java",
-    "code/src/app/domain/Product.java",
-    "code/src/app/libs/commons-logging-1.2.jar",
-    "code/src/app/libs/spring-aop-6.0.11.jar",
-    "code/src/app/libs/spring-beans-6.0.11.jar",
-    "code/src/app/libs/spring-context-6.0.11.jar",
-    "code/src/app/libs/spring-core-6.0.11.jar",
-    "code/src/app/libs/spring-expression-6.0.11.jar",
-    "code/src/app/repository/ProductRepository.java",
-    "code/src/app/repository/ProductRepositoryList.java",
-    "code/src/app/repository/ProductRepositoryMap.java",
-    "code/src/app/service/ProductService.java",
-    "code/src/app/service/ProductServiceImpl.java",
-    "code/src/client/Client.java",
-    "code/src/application.properties"
+    "code/src",
+    "code/src/main",
+    "code/src/main/java",
+    "code/src/main/java/app",
+    "code/src/main/java/app/controller",
+    "code/src/main/java/app/controller/CarServlet.java",
+    "code/src/main/java/app/domain",
+    "code/src/main/java/app/domain/Car.java",
+    "code/src/main/java/app/repository",
+    "code/src/main/java/app/repository/CarRepository.java",
+    "code/src/main/java/app/repository/CarRepositoryMap.java",
+    "code/src/main/java/app/service",
+    "code/src/main/java/app/service/CarService.java",
+    "code/src/main/java/app/service/CarServiceImpl.java",
+    "code/src/main/resources",
+    "code/src/main/webapp",
+    "code/src/main/webapp/WEB-INF",
+    "code/src/main/webapp/WEB-INF/web.xml",
+    "code/src/main/webapp/index.jsp"
 
   ]
 }
