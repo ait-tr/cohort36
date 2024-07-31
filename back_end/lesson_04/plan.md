@@ -29,18 +29,18 @@
    Choose the latest stable version: Apache Tomcat 10
    https://tomcat.apache.org/download-10.cgi
 
-2. Create a new project using the Maven builder and its pom.xml configuration file
+2. Create a new project using the **Maven** builder and its pom.xml configuration file
    Necessary dependencies:
    <dependencies>
    <dependency>
-   <groupId>jakarta.servlet</groupId>
-   <artifactId>jakarta.servlet-api</artifactId>
+     <groupId>jakarta.servlet</groupId>
+     <artifactId>jakarta.servlet-api</artifactId>
    <version>6.0.0</version>
    <scope>provided</scope>
    </dependency>
    <dependency>
-   <groupId>com.fasterxml.jackson.core</groupId>
-   <artifactId>jackson-databind</artifactId>
+     <groupId>com.fasterxml.jackson.core</groupId>
+     <artifactId>jackson-databind</artifactId>
    <version>2.16.0</version>
    </dependency>
    </dependencies>

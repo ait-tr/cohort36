@@ -1,11 +1,10 @@
-package app.repository;
+package app.service;
 
 import app.domain.Car;
 
 import java.util.List;
-// CRUD
 
-public interface CarRepository {
+public interface CarService {
 
     Car save(Car car);
 
@@ -13,8 +12,9 @@ public interface CarRepository {
 
     List<Car> getAll();
 
-    Car updateCar();
+    Car update(Car car);
 
     void delete(Long id);
+
 
 }

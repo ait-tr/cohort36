@@ -85,7 +85,7 @@ ___
 ## Что мы узнали на прошлом занятии:
 1. Аннотации Spring: 
 - @Component - это компонент Spring 
-- @Autowired - " ... " (автоматическое внедрения зависимости)
+- @Autowired - это аннотация для подключения "зависимостей(бинов)" (автоматическое внедрения зависимости c помощью Spring)
 - @Repository - это тоже аннотация Spring 
 - @Service  - это тоже аннотация Spring
 - @Qualifier - это тоже аннотация Sprin, позволяет выбрать реализацию имлементации
@@ -93,17 +93,17 @@ ___
 
 2. Взаимодействие в сети Internet, HTTP - протокол и его использование
 
-* HTTP - это ...
-* JSON - это ...
-* endpoint - это ... 
+* HTTP - это протокол передачи ТЕКСТА поо сети Интернет
+* JSON - это файл специального формата {"key":"value"}
+* endpoint - это адрес на сервере для получения и взаимодействия по HTTP-протоколу (внутри url - небольшая часть /users, /cars)
 
 Методы для http-запросов:
-* ...
-* ...
-* ...
-* ...
+* GET
+* POST
+* PUT
+* DELETE
 
-Протокол выполненного:
+**Протокол выполненного на занятии:**
 1. Установка Tomcat - скачать актуальную версию, разархивировать в доступную директорию, например C:\Tomcat\
 Для запуска запустить терминал и выполнить C:\Tomcat\bin\startup.bat (для Mac надо выполнить ./startup.sh)
 Для остановки сервера C:\Tomcat\bin\shutdown.bat (для Mac надо выполнить ./shutdown.sh)
@@ -113,6 +113,7 @@ ___
 
 2. Создаем новый проект, используя сборщик Maven:
 Language - Java, Build system - Maven
+
 3. Дополняем файл pom.xml зависимостями на jackson(работа с json) и jakarta(обработка http-запросов):
    <dependency>
      <groupId>jakarta.servlet</groupId>
@@ -134,14 +135,21 @@ Language - Java, Build system - Maven
 * repository - CarRepository(i), CarRepositoryMap
 * service - CarService(i), CarServiceImpl
 * controller - SarServlet (обработчик http-запросов)
+
+Ключева строка
+public class CarServlet extends HttpServlet - наследуемся, расширяемся от класса HttpServlet
+
 6. Создаем папку webapp, в ней папку WEB-INF, в ней файл web.xml  
 В этом файле описываем ДЕСКРИПТОР, который определяет обработку http-запросов (req, resp).
+
 7. Открываем закладку Maven в IntelliJ IDEA, в ней Lifecycle, double click на package - выполняется сборка war-архива, он попадает в папку target
+
 8. Переименовываем архив в ROOT.war и копируем его в папку webapps в директории Tomcat. Tomcat самостоятельно проводит разархивацию и готов к работе с приложением.
+
 9. Запускаем браузер, переходим на адрес 
 http://localhpst:8080
 делаем запрос из адресной строки браузера
-   http://localhpst:8080/cars
+http://localhpst:8080/cars
 Получаем список имеющихся в репозитории автомобилей.
 
 ## Тема сегодняшнего занятия:
