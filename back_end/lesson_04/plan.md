@@ -3,8 +3,6 @@
 
 # Lesson plan No. 4 07/29/2024
 
-# Lesson plan #4 07/29/2024
-
 ## What we learned in the last lesson:
 1. Principles of Clean Architecture and an example of its implementation in practice.
 
