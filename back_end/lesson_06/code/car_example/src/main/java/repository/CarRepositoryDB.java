@@ -88,19 +88,31 @@ public class CarRepositoryDB implements CarRepository {
             // До этого момента работаем в цикле и все автомобили складываем
             // в результирующий лист
 
+            List<Car> cars = new ArrayList<>();
 
+            String query = "SELECT * FROM car;";
+            Statement statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            while (resultSet.next()) {
+                Long id = resultSet.getLong("id");
+                String brand = resultSet.getString("brand");
+                BigDecimal price = resultSet.getBigDecimal("price");
+                int year = resultSet.getInt("year");
+                cars.add(new Car(id, brand, price, year));
+            }
+            return cars;
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-        return null;
+        // return null;
     }
 
     @Override
     public Car update(Car car) {
         try (Connection connection = getConnection()) {
 
-
             // TODO домашнее задание (изменению подлежит только цена)
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -112,6 +124,7 @@ public class CarRepositoryDB implements CarRepository {
         try (Connection connection = getConnection()) {
 
             // TODO домашнее задание
+
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
