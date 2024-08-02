@@ -1,10 +1,12 @@
-package app.service;
+package repository;
 
-import app.domain.Car;
+import domain.Car;
 
 import java.util.List;
 
-public interface CarService {
+public interface CarRepository {
+
+    // CRUD - create, read, update, delete
 
     Car save(Car car);
 
@@ -15,6 +17,4 @@ public interface CarService {
     Car update(Car car);
 
     void delete(Long id);
-
-
 }

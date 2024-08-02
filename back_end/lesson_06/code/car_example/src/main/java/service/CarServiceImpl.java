@@ -1,13 +1,13 @@
-package app.service;
+package service;
 
-import app.domain.Car;
-import app.repository.CarRepository;
+import domain.Car;
+import repository.CarRepository;
 
 import java.util.List;
 
-public class CarServiceImpl implements CarService{
+public class CarServiceImpl implements CarService {
 
-    public final CarRepository repository;
+    private final CarRepository repository;
 
     public CarServiceImpl(CarRepository repository) {
         this.repository = repository;
@@ -30,11 +30,11 @@ public class CarServiceImpl implements CarService{
 
     @Override
     public Car update(Car car) {
-        return null;
+        return repository.update(car);
     }
 
     @Override
     public void delete(Long id) {
-
+        repository.delete(id);
     }
 }
