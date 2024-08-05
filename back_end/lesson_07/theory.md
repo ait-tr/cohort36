@@ -1,7 +1,7 @@
 <details>
   <summary style="cursor: pointer;"><b>English</b></summary>
 
-# Lesson 6
+# Lesson 6, 7
 
 **Java Persistence API (JPA), Hibernate, and ORM**
 
@@ -70,7 +70,7 @@ Integrating JPA and Hibernate into Java applications provides developers with a 
 <details style="padding-top: 18px">
   <summary style="cursor: pointer;"><b>На русском</b></summary>
 
-# Lesson 6
+# Lesson 6, 7
 
 **Java Persistence API (JPA), Hibernate и ORM**
 
