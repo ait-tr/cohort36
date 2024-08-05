@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="domain.Car" table="car">
+
+        <id name="id" type="java.lang.Long">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>
+
+        <property name="brand" type="java.lang.String">
+            <column name="brand"/>
+        </property>
+
+        <property name="price" type="java.math.BigDecimal">
+            <column name="price"/>
+        </property>
+
+        <property name="year" type="int">
+            <column name="year"/>
+        </property>
+
+    </class>
+
+
+</hibernate-mapping>
