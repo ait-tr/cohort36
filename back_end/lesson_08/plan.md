@@ -3,8 +3,6 @@
 
 # Lesson plan No. 8 08/07/2024
 
-# Lesson plan #8 08/07/2024
-
 ## What we learned in the past lessons:
 - connecting dependencies
 - Maven is

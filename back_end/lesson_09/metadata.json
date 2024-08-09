@@ -1,0 +1,29 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+
+    "code/src",
+    "code/src/main",
+    "code/src/main/java",
+    "code/src/main/java/de",
+    "code/src/main/java/de/ait_tr",
+    "code/src/main/java/de/ait_tr/g_36",
+    "code/src/main/java/de/ait_tr/g_36/shop",
+    "code/src/main/java/de/ait_tr/g_36/shop/product",
+    "code/src/main/java/de/ait_tr/g_36/shop/product/Product.java",
+    "code/src/main/java/de/ait_tr/g_36/shop/Application.java",
+    "code/src/main/resources",
+    "code/src/main/resources/db",
+    "code/src/main/resources/db/changelog",
+    "code/src/main/resources/db/changelog/v.0.1.0",
+    "code/src/main/resources/db/changelog/v.0.1.0/changelog.xml",
+    "code/src/main/resources/db/changelog/v.0.1.0/create-table-product.xml",
+    "code/src/main/resources/db/changelog/v.0.1.1",
+    "code/src/main/resources/db/changelog/changelog-master.xml",
+    "code/src/main/resources/static",
+    "code/src/main/resources/templates",
+    "code/src/main/resources/application.yml"
+  ]
+}
